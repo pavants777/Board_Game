@@ -3,6 +3,8 @@ from PIL import Image, ImageDraw,ImageFont
 image = Image.new("RGB", (300, 300), "white")
 draw = ImageDraw.Draw(image)
 
+
+
 def draw_board(grid):
     square_size = 50
 
